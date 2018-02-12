@@ -1,5 +1,5 @@
 # chatter
-An IRC client for Ubuntu devices created by Robert Ancell.
+(https://github.com/rubencarneiro/devices_images/blob/master/chatter.png)An IRC client for Ubuntu devices created by Robert Ancell.
 https://launchpad.net/chatter
 
 How to build :
