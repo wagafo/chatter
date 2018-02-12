@@ -1,5 +1,7 @@
 # chatter
-(https://github.com/rubencarneiro/devices_images/blob/master/chatter.png)An IRC client for Ubuntu devices created by Robert Ancell.
+![Chatter](https://github.com/rubencarneiro/devices_images/blob/master/chatter.png "Chatter")
+
+An IRC client for Ubuntu devices created by Robert Ancell.
 https://launchpad.net/chatter
 
 How to build :
