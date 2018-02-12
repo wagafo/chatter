@@ -1,5 +1,5 @@
 {
-    "architecture": [ "armhf", "amd64", "i386" ],
+    "architecture": [ "armhf" ],
     "description": "Chat on Internet Relay Chat (IRC) networks",
     "framework": "ubuntu-sdk-15.04",
     "hooks": {
@@ -8,8 +8,8 @@
             "desktop": "chatter.desktop"
         }
     },
-    "maintainer": "Robert Ancell <robert.ancell@gmail.com>",
-    "name": "chatter.robert-ancell",
+    "maintainer": "Rúben Carneiro <rubencarneiro01@gmail.com>",
+    "name": "chatter.ruben-carneiro",
     "title": "Chatter",
     "version": "19"
 }
