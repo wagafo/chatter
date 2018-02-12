@@ -1,0 +1,279 @@
+# Chinese (Simplified) translation for chatter
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the chatter package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: chatter\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-06-26 23:44+1200\n"
+"PO-Revision-Date: 2016-06-07 07:14+0000\n"
+"Last-Translator: Cheng Lu <chenglu1990@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-12-07 05:02+0000\n"
+"X-Generator: Launchpad (build 18292)\n"
+
+#. TRANSLATORS: Title of add conversation page
+#: AddConversationPage.qml:17
+msgid "Add Conversation"
+msgstr "添加会话"
+
+#. TRANSLATORS: Text above server selector (join channel page)
+#: AddConversationPage.qml:28
+msgid "Server:"
+msgstr "服务器："
+
+#. TRANSLATORS: Text above channel / nickname field (join channel page)
+#: AddConversationPage.qml:38
+msgid "Channel / Nickname:"
+msgstr "频道/昵称："
+
+#. TRANSLATORS: Text on button to start a new conversation (add conversation page)
+#: AddConversationPage.qml:54
+msgid "Let's chat"
+msgstr "来聊天吧"
+
+#. TRANSLATORS: Topic header (channel page). The %topic is replaced by the topic
+#: ConversationPage.qml:36
+msgid ""
+"<font color=\"grey\">Topic: </font><font color=\"black\">%topic</font>"
+msgstr "<font color=\"grey\">话题: </font><font color=\"black\">%topic</font>"
+
+#. TRANSLATORS: Text shown when the topic is changed. %1 is replaced with the nickname of the user who changed the topic, %2 is replaced with the new topic.
+#: ConversationPage.qml:86
+msgid "%1 has changed topic to %2"
+msgstr ""
+
+#. TRANSLATORS: Text shown when a nickname is changed. %1 is replaced with the nickname of the user who is changing. %2 is replaced with the new nickname.
+#: ConversationPage.qml:90
+msgid "%1 is now known as %2"
+msgstr ""
+
+#. TRANSLATORS: Text shown when a user joins a channel. %1 is replaced with the nickname of the user.
+#: ConversationPage.qml:94
+msgid "%1 has joined"
+msgstr ""
+
+#. TRANSLATORS: Text shown when a user leaves a channel. %1 is replaced with the nickname of the user. %2 is replaced with the reason.
+#: ConversationPage.qml:98
+msgid "%1 has left (%2)"
+msgstr ""
+
+#. TRANSLATORS: Text shown when a user quits. %1 is replaced with the nickname of the user.
+#: ConversationPage.qml:102
+msgid "%1 has quit"
+msgstr ""
+
+#. TRANSLATORS: Text show when waiting to join a channel. %n is replaced by the channel name
+#: ConversationPage.qml:171
+msgid "Joining %n..."
+msgstr ""
+
+#. TRANSLATORS: Text show when waiting to connect to server. %n is replaced by the server name
+#: ConversationPage.qml:175
+msgid "Connecting to %n..."
+msgstr "连接 %n 中..."
+
+#. TRANSLATORS: Title of configure servers page
+#: ConfigureServersPage.qml:16
+msgid "IRC Servers"
+msgstr "IRC 服务器"
+
+#. TRANSLATORS: Title of configuration page for new server (i.e. no name yet entered)
+#: ServerPage.qml:16
+msgid "Unnamed Server"
+msgstr "未命名的服务器"
+
+#. TRANSLATORS: Text above server name field (server configuration page)
+#: ServerPage.qml:44
+msgid "Name:"
+msgstr "名称："
+
+#. TRANSLATORS: Text above server URL field (server configuration page)
+#: ServerPage.qml:56
+msgid "URL:"
+msgstr "URL："
+
+#. TRANSLATORS: Text describing IRC URLs
+#: ServerPage.qml:71
+msgid ""
+"IRC URLs are in the form:<br/>ircs://<i>host</i>[:<i>port</i>] (secure "
+"connections)<br/>irc://<i>host</i>[:<i>port</i>] (insecure "
+"connections)<br/><br/>The port is optional and will default to 6697 for "
+"secure connections and 6667 for insecure connections.<br/><br/>For example, "
+"ircs://irc.freenode.net is the URL for the freenode server."
+msgstr ""
+"IRC URL "
+"的格式：<br/>ircs://<i>主机</i>[:<i>端口</i>](安全连接)<br/>irc://<i>主机</i>[:<i>端口</i>](非"
+"安全连接)<br/><br/>端口是可选的，默认安全连接端口6697，非安全连接端口6667。<br/><br/>例如，irc://irc.freenod"
+"e.net 是 freenode 服务器的 URL。"
+
+#. TRANSLATORS: Text above server password field (server configuration page)
+#: ServerPage.qml:82
+msgid "Server password (optional):"
+msgstr "服务器密码(可选)："
+
+#. TRANSLATORS: Text above server nickname fields (server configuration page)
+#. TRANSLATORS: Text above nickname field (settings page)
+#: ServerPage.qml:95 SettingsPage.qml:27
+msgid "Nickname:"
+msgstr "昵称："
+
+#. TRANSLATORS: Text above server nickname fields (server configuration page)
+#: ServerPage.qml:108
+msgid "Real name:"
+msgstr "真实姓名："
+
+#. TRANSLATORS: Text on button to add a new server (server configuration page)
+#: ServerPage.qml:123
+msgid "Add Server"
+msgstr "添加服务器"
+
+#. TRANSLATORS: Text on button to delete selected server
+#: ServerPage.qml:133
+msgid "Delete Server"
+msgstr "删除服务器"
+
+#. TRANSLATORS: Title of settings page
+#: SettingsPage.qml:16
+msgid "Settings"
+msgstr "设置"
+
+#. TRANSLATORS: Text above real name field (settings page)
+#: SettingsPage.qml:40
+msgid "Real Name:"
+msgstr "真实姓名："
+
+#. TRANSLATORS: Text above settings button to configure servers
+#: SettingsPage.qml:52
+msgid "Configure Servers..."
+msgstr "配置服务器..."
+
+#. TRANSLATORS: Description of IRC / Chatter (first run wizard)
+#: WelcomePage.qml:31
+msgid ""
+"Welcome to Chatter!<br/><br/>Chatter is a program that allows you to use an "
+"Internet Relay Chat (IRC) network. An IRC network is made up of thousands of "
+"users communicating using text in <i>channels</i>. For most networks, anyone "
+"can open a channel and the channels are public.<br/><br/>For example, you "
+"might join the channel #ilovecats:<br/><br/>&lt;catlover&gt; You know what I "
+"think? Cats are great!<br>&lt;felinefriend&gt; catlover: Me "
+"too!<br>&lt;dogsarebest&gt; I think I'm in the wrong channel..."
+msgstr ""
+"欢迎来到 Chatter！<br/><br/> Chatter 是一个让你使用互联网中继聊天（IRC）网络的程序。IRC "
+"网络由成千上万的用户在<i>频道</i>中进行文本通信组成。在大部分网络中，每个人都可以开启一个频道并且频道是公开的。<br/><br/>例如，你可以加入"
+" #ilovecats 频道：<br/><br/>&lt;猫猫爱好者&gt; 你知道我在想什么？猫猫很棒！<br>&lt;猫科之友&gt; 猫猫爱好者: "
+"我也这么觉得！<br>&lt;狗狗是最棒的&gt; 我想我进错频道了..."
+
+#. TRANSLATORS: Instructions on how to pick a nickname (first run wizard)
+#: WelcomePage.qml:51
+msgid ""
+"To use IRC, you need to pick a <i>nickname</i> for yourself. It must start "
+"with a letter and only contain letters, numbers and the '_' character (a "
+"small number of other characters are allowed but are probably not "
+"useful<br/><br/>Traditionally nicknames are short (not more than nine "
+"characters). You can change your nickname at any time."
+msgstr ""
+"使用 "
+"IRC，你需要为自己挑一个<i>昵称</i>。它必须以字母开头，并且仅包含字母、数字和“_”字符(一小部分其他的字符是被允许的，但可能没有用)<br/><"
+"br/>传统的昵称都是简短的(不超过九个字母)。你可以任何时间更改你的昵称。"
+
+#. TRANSLATORS: Text above field for entering nickname
+#: WelcomePage.qml:59
+msgid "My nickname is:"
+msgstr "我的昵称是："
+
+#. TRANSLATORS: Example nickname
+#: WelcomePage.qml:67
+msgid "chattyman"
+msgstr "chattyman"
+
+#. TRANSLATORS: Instructions on how to pick a real name (first run wizard)
+#: WelcomePage.qml:73
+msgid ""
+"As well as a nickname, you can set your real name. This is optional, and can "
+"be set to whatever you like. You can change your name later if you wish."
+msgstr "和昵称一样，你可以设置你的真实姓名。这是可选的，并且可以设置成任何你喜欢的。如果你愿意的话，也后也可以更改你的名字。"
+
+#. TRANSLATORS: Text above field for entering real name
+#: WelcomePage.qml:79
+msgid "My real name is:"
+msgstr "我的真实姓名是："
+
+#. TRANSLATORS: Example real name
+#: WelcomePage.qml:86
+msgid "Sir Talksalot"
+msgstr "Sir Talksalot"
+
+#. TRANSLATORS: Instructions for picking a channel to use (first run wizard)
+#: WelcomePage.qml:100
+msgid ""
+"You know, they say talking to yourself is the first sign of madness... "
+"Probably better to find a channel to talk to others on.<br/><br/>I've gone "
+"ahead an picked #ubuntu on freenode for you. You can chat there about how "
+"great your Ubuntu device is. Or perhaps you know a better channel?"
+msgstr ""
+"你知道，和自己说话是发疯的第一征兆...找一个频道和别人聊天也许会更好。<br/><br/>我已经为你挑选了 freenode 上的 #ubuntu "
+"频道。你可以在那说你的 Ubuntu 设备有多棒。或者你知道更好的频道？"
+
+#. TRANSLATORS: Text above server selector
+#: WelcomePage.qml:108
+msgid "Connect to the server:"
+msgstr "连接到服务器："
+
+#. TRANSLATORS: Text above field for entering channel to join
+#: WelcomePage.qml:119
+msgid "Chat on the channel:"
+msgstr "聊天频道："
+
+#. TRANSLATORS: Default IRC channel to connect to on freenode
+#: WelcomePage.qml:126
+msgid "#ubuntu"
+msgstr "#ubuntu"
+
+#. TRANSLATORS: Text on button to switch from IRC description page to picking a nickname (first run wizard)
+#: WelcomePage.qml:138
+msgid "OK, I'm in"
+msgstr "好的，我加入"
+
+#. TRANSLATORS: Text on button to return to IRC description page (first run wizard)
+#: WelcomePage.qml:146
+msgid "What was IRC again?"
+msgstr "IRC 是什么？"
+
+#. TRANSLATORS: Text on button to switch from nickname page to picking a channel page (first run wizard)
+#: WelcomePage.qml:148
+msgid "That's my real name, honest"
+msgstr "这是我的真实姓名，诚实"
+
+#. TRANSLATORS: Text on button to return to nickname page (first run wizard)
+#: WelcomePage.qml:156
+msgid "Um, I think I spelt my name wrong"
+msgstr "呃，我想我把名字写错了"
+
+#. TRANSLATORS: Text on button to complete setup (first run wizard)
+#: WelcomePage.qml:158
+msgid "Let's talk"
+msgstr "来聊天吧"
+
+#. TRANSLATORS: Title of application page
+#: main.qml:173 chatter.desktop.in.h:1
+msgid "Chatter"
+msgstr "Chatter"
+
+#. TRANSLATORS: Placeholder text when no channels subscribed to
+#: main.qml:204
+msgid "You are not currently subscribed to any channels"
+msgstr "你目前没有订阅任何频道"
+
+#: chatter.desktop.in.h:2
+msgid "Chat on Internet Relay Chat (IRC) networks"
+msgstr "在互联网中继聊天(IRC)网络中聊天"
+
+#: chatter.desktop.in.h:3
+msgid "irc,online,chat,freenode"
+msgstr "irc,在线,聊天,freenode"
