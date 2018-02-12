@@ -1,6 +1,4 @@
-all: lib/arm-linux-gnueabihf/bin/chatter \
-     lib/x86_64-linux-gnu/bin/chatter \
-     lib/i386-linux-gnu/bin/chatter \
+all: binary-armhf \
      chatter.desktop \
      po/chatter.robert-ancell.pot \
      share/locale/de/LC_MESSAGES/chatter.robert-ancell.mo \
@@ -42,7 +40,7 @@ click:
 
 version.h: manifest.json
 	echo -n "#define VERSION " > $@
-	jq .version $< >> $@        
+	jq .version $< >> $@
 
 irc_client_moc.cpp: irc_client.h
 	moc $< -o $@
@@ -63,7 +61,7 @@ share/locale/%/LC_MESSAGES/chatter.robert-ancell.mo: po/%.po
 clean:
 	rm -f lib/arm-linux-gnueabihf/bin/chatter
 	rm -f lib/x86_64-linux-gnu/bin/chatter
-	rm -f lib/i386-linux-gnu/bin/chatter        
+	rm -f lib/i386-linux-gnu/bin/chatter
 	rm -f share/locale/*/*/*.mo
 	rm -f chatter.desktop
 
