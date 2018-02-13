@@ -1,0 +1,296 @@
+# French translation for chatter
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the chatter package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: chatter\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-06-26 23:44+1200\n"
+"PO-Revision-Date: 2016-06-28 20:37+0000\n"
+"Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
+"Language-Team: French <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-12-07 05:02+0000\n"
+"X-Generator: Launchpad (build 18292)\n"
+
+#. TRANSLATORS: Title of add conversation page
+#: AddConversationPage.qml:17
+msgid "Add Conversation"
+msgstr "Ajouter une conversation"
+
+#. TRANSLATORS: Text above server selector (join channel page)
+#: AddConversationPage.qml:28
+msgid "Server:"
+msgstr "Serveur :"
+
+#. TRANSLATORS: Text above channel / nickname field (join channel page)
+#: AddConversationPage.qml:38
+msgid "Channel / Nickname:"
+msgstr "Canal / Surnom :"
+
+#. TRANSLATORS: Text on button to start a new conversation (add conversation page)
+#: AddConversationPage.qml:54
+msgid "Let's chat"
+msgstr "Bavardons !"
+
+#. TRANSLATORS: Topic header (channel page). The %topic is replaced by the topic
+#: ConversationPage.qml:36
+msgid ""
+"<font color=\"grey\">Topic: </font><font color=\"black\">%topic</font>"
+msgstr ""
+"<font color=\"grey\">Sujet : </font><font color=\"black\">%topic</font>"
+
+#. TRANSLATORS: Text shown when the topic is changed. %1 is replaced with the nickname of the user who changed the topic, %2 is replaced with the new topic.
+#: ConversationPage.qml:86
+msgid "%1 has changed topic to %2"
+msgstr "%1 a changé le sujet en %2"
+
+#. TRANSLATORS: Text shown when a nickname is changed. %1 is replaced with the nickname of the user who is changing. %2 is replaced with the new nickname.
+#: ConversationPage.qml:90
+msgid "%1 is now known as %2"
+msgstr "%1 est maintenant connu sous le nom %2"
+
+#. TRANSLATORS: Text shown when a user joins a channel. %1 is replaced with the nickname of the user.
+#: ConversationPage.qml:94
+msgid "%1 has joined"
+msgstr "%1 a rejoint le canal"
+
+#. TRANSLATORS: Text shown when a user leaves a channel. %1 is replaced with the nickname of the user. %2 is replaced with the reason.
+#: ConversationPage.qml:98
+msgid "%1 has left (%2)"
+msgstr "%1 est parti(e) (%2)"
+
+#. TRANSLATORS: Text shown when a user quits. %1 is replaced with the nickname of the user.
+#: ConversationPage.qml:102
+msgid "%1 has quit"
+msgstr "%1 est parti(e)"
+
+#. TRANSLATORS: Text show when waiting to join a channel. %n is replaced by the channel name
+#: ConversationPage.qml:171
+msgid "Joining %n..."
+msgstr "Entrée dans le canal %n..."
+
+#. TRANSLATORS: Text show when waiting to connect to server. %n is replaced by the server name
+#: ConversationPage.qml:175
+msgid "Connecting to %n..."
+msgstr "Connexion à %n..."
+
+#. TRANSLATORS: Title of configure servers page
+#: ConfigureServersPage.qml:16
+msgid "IRC Servers"
+msgstr "Serveurs IRC"
+
+#. TRANSLATORS: Title of configuration page for new server (i.e. no name yet entered)
+#: ServerPage.qml:16
+msgid "Unnamed Server"
+msgstr "Serveur sans nom"
+
+#. TRANSLATORS: Text above server name field (server configuration page)
+#: ServerPage.qml:44
+msgid "Name:"
+msgstr "Nom :"
+
+#. TRANSLATORS: Text above server URL field (server configuration page)
+#: ServerPage.qml:56
+msgid "URL:"
+msgstr "URL :"
+
+#. TRANSLATORS: Text describing IRC URLs
+#: ServerPage.qml:71
+msgid ""
+"IRC URLs are in the form:<br/>ircs://<i>host</i>[:<i>port</i>] (secure "
+"connections)<br/>irc://<i>host</i>[:<i>port</i>] (insecure "
+"connections)<br/><br/>The port is optional and will default to 6697 for "
+"secure connections and 6667 for insecure connections.<br/><br/>For example, "
+"ircs://irc.freenode.net is the URL for the freenode server."
+msgstr ""
+"Les URL IRC sont de la forme :<br/>ircs://<i>hôte</i>[:<i>port</i>] "
+"(connexions sécurisées)<br/>irc://<i>hôte</i>[:<i>port</i>] (connexions non "
+"sécurisées)<br/><br/>Le port est optionnel est sera par défaut 6697 pour les "
+"connexions sécurisées et 6667 pour les connexions non "
+"sécurisées.<br/><br/>Par exemple, ircs://irc.freenode.net est l'URL du "
+"serveur Freenode."
+
+#. TRANSLATORS: Text above server password field (server configuration page)
+#: ServerPage.qml:82
+msgid "Server password (optional):"
+msgstr "Mot de passe du serveur (facultatif) :"
+
+#. TRANSLATORS: Text above server nickname fields (server configuration page)
+#. TRANSLATORS: Text above nickname field (settings page)
+#: ServerPage.qml:95 SettingsPage.qml:27
+msgid "Nickname:"
+msgstr "Surnom :"
+
+#. TRANSLATORS: Text above server nickname fields (server configuration page)
+#: ServerPage.qml:108
+msgid "Real name:"
+msgstr "Nom réel :"
+
+#. TRANSLATORS: Text on button to add a new server (server configuration page)
+#: ServerPage.qml:123
+msgid "Add Server"
+msgstr "Ajouter un serveur"
+
+#. TRANSLATORS: Text on button to delete selected server
+#: ServerPage.qml:133
+msgid "Delete Server"
+msgstr "Supprimer le serveur"
+
+#. TRANSLATORS: Title of settings page
+#: SettingsPage.qml:16
+msgid "Settings"
+msgstr "Paramètres"
+
+#. TRANSLATORS: Text above real name field (settings page)
+#: SettingsPage.qml:40
+msgid "Real Name:"
+msgstr "Nom complet :"
+
+#. TRANSLATORS: Text above settings button to configure servers
+#: SettingsPage.qml:52
+msgid "Configure Servers..."
+msgstr "Configurer les serveurs..."
+
+#. TRANSLATORS: Description of IRC / Chatter (first run wizard)
+#: WelcomePage.qml:31
+msgid ""
+"Welcome to Chatter!<br/><br/>Chatter is a program that allows you to use an "
+"Internet Relay Chat (IRC) network. An IRC network is made up of thousands of "
+"users communicating using text in <i>channels</i>. For most networks, anyone "
+"can open a channel and the channels are public.<br/><br/>For example, you "
+"might join the channel #ilovecats:<br/><br/>&lt;catlover&gt; You know what I "
+"think? Cats are great!<br>&lt;felinefriend&gt; catlover: Me "
+"too!<br>&lt;dogsarebest&gt; I think I'm in the wrong channel..."
+msgstr ""
+"Bienvenue dans Chatter!<br/><br/>Chatter est un programme qui vous permet "
+"d'utiliser un réseau IRC (Internet Relay Chat). Un réseau IRC est composé de "
+"milliers d'utilisateurs communiquant par texte dans des <i>canaux</i>. Pour "
+"la plupart des réseaux, n'importe qui peut ouvrir un canal et les canaux "
+"sont publics.<br/><br/>Par exemple, vous pourriez rejoindre le canal "
+"#jaimeleschats:<br/><br/>&lt;amoureuxdeschats&gt; Vous savez ce que je "
+"pense ? Les chats sont supers !<br>&lt;amiedesfelins&gt; amoureuxdeschats: "
+"Moi aussi !<br>&lt;leschienssontlesmeilleurs&gt; Je pense que je suis sur le "
+"mauvais canal..."
+
+#. TRANSLATORS: Instructions on how to pick a nickname (first run wizard)
+#: WelcomePage.qml:51
+msgid ""
+"To use IRC, you need to pick a <i>nickname</i> for yourself. It must start "
+"with a letter and only contain letters, numbers and the '_' character (a "
+"small number of other characters are allowed but are probably not "
+"useful<br/><br/>Traditionally nicknames are short (not more than nine "
+"characters). You can change your nickname at any time."
+msgstr ""
+"Pour utiliser IRC, vous devez vous choisir un <i>surnom</i>. Il doit "
+"commencer par une lettre et contenir uniquement des lettres, des nombres et "
+"le caractère « _ » (un petit nombre d'autres caractères sont autorisés mais "
+"ne sont probablement pas utiles<br/><br/>Traditionnellement, les surnoms "
+"sont courts (pas plus de neuf caractères). Vous pouvez changer votre surnom "
+"à n'importe quel moment."
+
+#. TRANSLATORS: Text above field for entering nickname
+#: WelcomePage.qml:59
+msgid "My nickname is:"
+msgstr "Mon surnom est :"
+
+#. TRANSLATORS: Example nickname
+#: WelcomePage.qml:67
+msgid "chattyman"
+msgstr "hommebavard"
+
+#. TRANSLATORS: Instructions on how to pick a real name (first run wizard)
+#: WelcomePage.qml:73
+msgid ""
+"As well as a nickname, you can set your real name. This is optional, and can "
+"be set to whatever you like. You can change your name later if you wish."
+msgstr ""
+"En parallèle de votre surnom, vous pouvez définir votre vrai nom. Ceci est "
+"facultatif et peut être défini comme vous le voulez. Vous pouvez changer "
+"votre nom plus tard si vous le souhaitez."
+
+#. TRANSLATORS: Text above field for entering real name
+#: WelcomePage.qml:79
+msgid "My real name is:"
+msgstr "Mon vrai nom est :"
+
+#. TRANSLATORS: Example real name
+#: WelcomePage.qml:86
+msgid "Sir Talksalot"
+msgstr "M. Parlebeaucoup"
+
+#. TRANSLATORS: Instructions for picking a channel to use (first run wizard)
+#: WelcomePage.qml:100
+msgid ""
+"You know, they say talking to yourself is the first sign of madness... "
+"Probably better to find a channel to talk to others on.<br/><br/>I've gone "
+"ahead an picked #ubuntu on freenode for you. You can chat there about how "
+"great your Ubuntu device is. Or perhaps you know a better channel?"
+msgstr ""
+"Vous savez, ils disent que le fait de se parler à soi-même est le premier "
+"signe de folie... C'est probablement mieux de trouver un canal pour parler à "
+"d'autres personnes.<br/><br/>J'ai poursuivi et choisi #ubuntu sur Freenode "
+"pour vous. Vous pouvez nous raconter ici combien votre appareil sous Ubuntu "
+"est génial. Ou peut-être connaissez-vous un meilleur canal(nbsp]?"
+
+#. TRANSLATORS: Text above server selector
+#: WelcomePage.qml:108
+msgid "Connect to the server:"
+msgstr "Se connecter au serveur :"
+
+#. TRANSLATORS: Text above field for entering channel to join
+#: WelcomePage.qml:119
+msgid "Chat on the channel:"
+msgstr "Discuter sur le canal :"
+
+#. TRANSLATORS: Default IRC channel to connect to on freenode
+#: WelcomePage.qml:126
+msgid "#ubuntu"
+msgstr "#ubuntu"
+
+#. TRANSLATORS: Text on button to switch from IRC description page to picking a nickname (first run wizard)
+#: WelcomePage.qml:138
+msgid "OK, I'm in"
+msgstr "OK, j'en suis"
+
+#. TRANSLATORS: Text on button to return to IRC description page (first run wizard)
+#: WelcomePage.qml:146
+msgid "What was IRC again?"
+msgstr "C'est quoi déjà IRC ?"
+
+#. TRANSLATORS: Text on button to switch from nickname page to picking a channel page (first run wizard)
+#: WelcomePage.qml:148
+msgid "That's my real name, honest"
+msgstr "C'est mon vrai nom, promis"
+
+#. TRANSLATORS: Text on button to return to nickname page (first run wizard)
+#: WelcomePage.qml:156
+msgid "Um, I think I spelt my name wrong"
+msgstr "Hum, je pense que j'ai mal orthographié mon nom"
+
+#. TRANSLATORS: Text on button to complete setup (first run wizard)
+#: WelcomePage.qml:158
+msgid "Let's talk"
+msgstr "Discutons"
+
+#. TRANSLATORS: Title of application page
+#: main.qml:173 chatter.desktop.in.h:1
+msgid "Chatter"
+msgstr "Bavardages"
+
+#. TRANSLATORS: Placeholder text when no channels subscribed to
+#: main.qml:204
+msgid "You are not currently subscribed to any channels"
+msgstr "Vous n'êtes actuellement inscrit à aucun canal"
+
+#: chatter.desktop.in.h:2
+msgid "Chat on Internet Relay Chat (IRC) networks"
+msgstr "Discutez sur les réseaux IRC (Internet Relay Chat)"
+
+#: chatter.desktop.in.h:3
+msgid "irc,online,chat,freenode"
+msgstr "irc,ligne,chat,discuter,freenode"
