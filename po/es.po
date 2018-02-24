@@ -229,7 +229,7 @@ msgstr ""
 "Dicen que hablar con uno mismo es el primer signo de locura... "
 "Probablemente es mejor encontrar un canal para hablar con otros.<br/><br/>He tomado "
 "la iniciativa y elegí #ubuntu en freenode para usted. Puede hablar allí sobre que "
-"estupendo es su dispositivo con Ubuntu. ¿O tal vez conozca otro canal mejor?
+"estupendo es su dispositivo con Ubuntu. ¿O tal vez conozca otro canal mejor?"
 
 #. TRANSLATORS: Text above server selector
 #: WelcomePage.qml:108
