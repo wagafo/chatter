@@ -3,6 +3,7 @@ all: binary-armhf \
      po/chatter.ruben-carneiro.pot \
      share/locale/de/LC_MESSAGES/chatter.ruben-carneiro.mo \
      share/locale/el/LC_MESSAGES/chatter.ruben-carneiro.mo \
+     share/locale/es/LC_MESSAGES/chatter.ruben-carneiro.mo \
      share/locale/fi/LC_MESSAGES/chatter.ruben-carneiro.mo \
      share/locale/fr/LC_MESSAGES/chatter.ruben-carneiro.mo \
      share/locale/hu/LC_MESSAGES/chatter.ruben-carneiro.mo \
