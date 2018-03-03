@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-26 23:44+1200\n"
+"POT-Creation-Date: 2018-03-03 23:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,24 +112,29 @@ msgstr ""
 msgid "Server password (optional):"
 msgstr ""
 
+#. TRANSLATORS: Label beside checkbox that makes the server password visible (server configuration page)
+#: ServerPage.qml:100
+msgid "Show password"
+msgstr ""
+
 #. TRANSLATORS: Text above server nickname fields (server configuration page)
 #. TRANSLATORS: Text above nickname field (settings page)
-#: ServerPage.qml:95 SettingsPage.qml:27
+#: ServerPage.qml:106 SettingsPage.qml:27
 msgid "Nickname:"
 msgstr ""
 
 #. TRANSLATORS: Text above server nickname fields (server configuration page)
-#: ServerPage.qml:108
+#: ServerPage.qml:119
 msgid "Real name:"
 msgstr ""
 
 #. TRANSLATORS: Text on button to add a new server (server configuration page)
-#: ServerPage.qml:123
+#: ServerPage.qml:134
 msgid "Add Server"
 msgstr ""
 
 #. TRANSLATORS: Text on button to delete selected server
-#: ServerPage.qml:133
+#: ServerPage.qml:144
 msgid "Delete Server"
 msgstr ""
 
@@ -252,7 +257,7 @@ msgid "Chatter"
 msgstr ""
 
 #. TRANSLATORS: Placeholder text when no channels subscribed to
-#: main.qml:204
+#: main.qml:209
 msgid "You are not currently subscribed to any channels"
 msgstr ""
 

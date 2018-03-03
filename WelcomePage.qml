@@ -178,7 +178,7 @@ I've gone ahead an picked #ubuntu on freenode for you. You can chat there about 
         anchors.right: parent.right
         anchors.bottom: parent.bottom
         anchors.margins: units.gu (2)
-        color: UbuntuColors.orange
+        color: UbuntuColors.green
         onClicked: setPage (pageNumber + 1)
     }
 }

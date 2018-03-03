@@ -7,3 +7,4 @@ Icon=chatter.png
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Image=splash.png
